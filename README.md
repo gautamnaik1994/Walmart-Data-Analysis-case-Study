@@ -1,12 +1,40 @@
+# Walmart Case Study
+
+By Gautam Naik (gautamnaik1994@gmail.com)  
+
+**About Walmart**
+
+Walmart is an American multinational retail corporation that operates a chain of supercenters, discount departmental stores, and grocery stores from the United States. Walmart has more than 100 million customers worldwide.
+
+  
+**Business Problem**
+
+The Management team at Walmart Inc. wants to analyze the customer purchase behavior (specifically, purchase amount) against the 
+customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending 
+habits differ between male and female customers: Do women spend more on Black Friday than men? (Assume 50 million customers are male 
+and 50 million are female).
+
+**Metric**
+
+- We will use visualization of all variable with purchase amount to visually confirm our findings.
+- Central Limit Theorem with bootstrapping will be used to estimate the confidence interval.
+- Hypothesis testing will be done on Gender, Marital Status and Age using z test and t test to answer question about spending patterns
+
+  
+**Dataset**
+
+The company collected the transactional data of customers who purchased products from the Walmart Stores during Black Friday. 
+The dataset has the following features:  
+
+- User\_ID:User ID  
+- Product\_ID:Product ID  
+- Gender:Sex of User  
+- Age:Age in bins  
+- Occupation:Occupation(Masked)  
+- City\_Category:Category of the City (A,B,C)  
+- StayInCurrentCityYears:Number of years stay in current city  
+- Marital\_Status: Marital Status  
+- ProductCategory: Product Category (Masked)  
+- Purchase:Purchase Amount  
 
 
-- Male user have higher spending than female user. To increase female user spending bigger discounts can be given to female users. Free gifts can be added with existing products for female users.
-- Married user have lesser spending than single user. Couple discounts can be given to boost spending of married users. If they have kids, small free toys can be added as a gift.
-- Age group 55+ is the lowest spending group. Older users can be given bigger discounts to boost spending. Plus delivery fee can be reduced or removed completely.
-- Age group 26-35 is the highest spending group. More social media ads and promotion can be done to acquire even more users from this group.
-- Product category 1,5,8 are most profitable categories. Discounts/Promotions on other category can be increased. Also their placement in the store or website can be changed.
-- City Category C has highest number of users and A has lowest number of users. Higher discount can be applied to store in City A. More promotion,ad campaigns can be done in City A to boost sales.
-
-- People who have are staying in current city for 1 year are major spenders. People who have been staying for 2,3 and 4 years have decreased spending. Some kind of loyalty program can be started to gain back these users. 
-
-- Occupation 0, 4,7 have highest number of users and  while Occupation 8 have lowest number of users. Walmart can tie up with certain organizations, comapanies for promotion of their products or discounts on certain categories for their employees.
